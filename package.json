@@ -1,0 +1,31 @@
+{
+  "name": "@supernova-team/xml-sunat",
+  "version": "0.9.5",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xml",
+    "signature",
+    "SUNAT",
+    "xml signature",
+    "node"
+  ],
+  "author": "Jim UX",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Librería para poder firmar XML's según la SUNAT",
+  "dependencies": {
+    "@xmldom/xmldom": "^0.9.8",
+    "node-forge": "^1.3.1",
+    "xml-crypto": "^6.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "@types/node-forge": "^1.3.11",
+    "typescript": "^5.8.3"
+  }
+}
